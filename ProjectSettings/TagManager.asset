@@ -3,7 +3,12 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Ladder
+  - Ground
+  - Enemy
+  - Hazards
+  - Fireball
   layers:
   - Default
   - TransparentFX
@@ -11,13 +16,13 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Ground
+  - ladder
+  - Player
+  - Background
+  - Enemies
+  - Hazards
+  - Fireball
   - 
   - 
   - 
@@ -49,4 +54,16 @@ TagManager:
     locked: 0
   - name: Water
     uniqueID: 2524799085
+    locked: 0
+  - name: ladders
+    uniqueID: 41368435
+    locked: 0
+  - name: Hazards
+    uniqueID: 2126364023
+    locked: 0
+  - name: enemy
+    uniqueID: 1928782685
+    locked: 0
+  - name: player
+    uniqueID: 1158663301
     locked: 0
